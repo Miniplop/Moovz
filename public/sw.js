@@ -20,7 +20,6 @@ self.addEventListener('fetch', event => {
   cacheFallingBackToNetwork(event)
 });
 
-
 const cacheFallingBackToNetwork = event => event.respondWith(
   caches.match(event.request)
     .then(response => {
