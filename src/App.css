@@ -16,6 +16,10 @@
 
 .App-intro {
   font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 @keyframes App-logo-spin {
